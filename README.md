@@ -14,30 +14,30 @@ Este é um projeto pessoal para criar uma aplicação de tela de login e cadastr
 
 ```bash
 git clone https://github.com/danieldemac/login_teste.git
-
+```
 2. **Instale as dependências do frontend:**
 
 ```bash
 cd frontend
 npm install
-
+```
 3. **Instale as dependências do backend:**
 
 ```bash
 cd ../backend
 npm install
-
+```
 4. **Inicie o servidor backend:**
 
 ```bash
 npm start
-
+```
 5. **Inicie o servidor frontend:**
 
 ```bash
 cd ../frontend
 npm start
-
+```
 6. Acesse a aplicação em seu navegador: 'http://localhost:3000'
 
 ## Contribuições
