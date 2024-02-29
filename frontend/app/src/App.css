@@ -107,6 +107,10 @@ input[type="email"]:focus {
   transition: all 0.2s ease;
 }
 
+.avatar {
+  height: 80px;
+}
+
 .avatar_base {
   width: 250px;
   height: 60px;
@@ -115,4 +119,13 @@ input[type="email"]:focus {
 .header__logo {
   display: block;
   max-width: 300px
+}
+
+.bem_vindo {
+  padding-bottom: 20px;
+}
+
+.errocancelar {
+  color: #d91821;
+  font-size: small;
 }
