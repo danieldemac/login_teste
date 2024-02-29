@@ -1,13 +1,15 @@
 body {
-  background-color: #9f9da7;
+  background-color: #eef2f6;
   font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #2b3e51;
 }
 
 h2 {
   font-weight: 300;
+  font-size: 30px;
   text-align: center;
+  color: #707174;
 }
 
 a,
@@ -31,7 +33,7 @@ a:active:hover {
 }
 
 .login-form-wrap {
-  background-color: #fff;
+  background-color: #f7f7f7;
   width: 70%;
   max-width: 400px;
   margin: 30px auto;
@@ -79,8 +81,9 @@ input[type="email"]:focus {
 .btn-login {
   border: none;
   display: block;
-  background-color: #3ca9e2;
-  color: #fff;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background: #d91821;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
@@ -95,9 +98,21 @@ input[type="email"]:focus {
   margin-top: 10px;
   width: 100%;
   padding: 20px;
+  box-shadow: 4px 5px 4px 0px #023b3a;
 }
 .btn-login:hover {
-  background-color: #329dd5;
+  color: bisque;
+  background: #6d6e72;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+
+.avatar_base {
+  width: 250px;
+  height: 60px;
+}
+
+.header__logo {
+  display: block;
+  max-width: 300px
 }

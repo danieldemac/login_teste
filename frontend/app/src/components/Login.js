@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from 'axios';
 
-
 function Login(){
 
     const [email, setEmail] = useState('');
@@ -26,7 +25,8 @@ function Login(){
 
     return (
       <div className='login-form-wrap'>
-      <h2>Login</h2>
+      <img className="avatar_base" src="datametrica.jpg" alt="avatar_base" />
+      <h2>Painel Pesquisadores</h2>
       <form className='login-form'>
           <input 
           type='email' 
