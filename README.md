@@ -30,7 +30,7 @@ npm install
 4. **Inicie o servidor backend:**
 
 ```bash
-npm run
+npm run dev
 ```
 5. **Inicie o servidor frontend:**
 
