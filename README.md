@@ -30,12 +30,11 @@ npm install
 4. **Inicie o servidor backend:**
 
 ```bash
-npm start
+npm run
 ```
 5. **Inicie o servidor frontend:**
 
 ```bash
-cd ../frontend
 npm start
 ```
 6. Acesse a aplicação em seu navegador: 'http://localhost:3000'
