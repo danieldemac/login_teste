@@ -128,4 +128,6 @@ input[type="email"]:focus {
 .errocancelar {
   color: #d91821;
   font-size: small;
+  font-style: italic;
+  padding-bottom: 10px;
 }
