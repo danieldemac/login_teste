@@ -47,8 +47,9 @@ function Login(){
       <div className='login-form-wrap'>
         {user == null ? (
           <div>
-      <img className="avatar_base" src="datametrica.jpg" alt="avatar_base" />
+      <img className="avatar_dtm" src="datametrica.jpg" alt="logo_dtm" />
       <h2>Painel Pesquisadores</h2>
+      <img className="avatar_base" src="avatar.png" alt="avatar_base" />
       <form className='login-form'>
           <input 
           type='email' 
@@ -68,7 +69,7 @@ function Login(){
           type='submit' 
           className='btn-login'
           onClick={(e) => handleLogin(e)}>
-            Login</button>
+            ENTRAR</button>
       </form>
       <p className="errocancelar">{error}</p>
       </div>

@@ -112,8 +112,11 @@ input[type="email"]:focus {
 }
 
 .avatar_base {
-  width: 250px;
-  height: 60px;
+  width: 100px;
+  
+}
+.avatar_dtm {
+  max-width: 300px;
 }
 
 .header__logo {
