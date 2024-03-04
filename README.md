@@ -1,4 +1,4 @@
-# Modelo de Login e Cadastro
+<h1 text-alingh="center">Modelo de Login e Cadastro</h1> Modelo de Login e Cadastro
 
 Este é um projeto pessoal para criar uma aplicação de tela de login e cadastro usando React JS para o frontend e Node JS para o backend.
 
