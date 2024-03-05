@@ -24,7 +24,7 @@ npm install
 3. **Instale as dependências do backend:**
 
 ```bash
-cd ../backend
+cd ../backend/app
 npm install
 ```
 4. **Inicie o servidor backend:**
