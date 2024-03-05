@@ -37,7 +37,9 @@ npm run dev
 ```bash
 npm start
 ```
-6. Acesse a aplicação em seu navegador: 'http://localhost:3000'
+6. **Acesse a aplicação em seu navegador:** 
+'http://localhost:3000'
+Ao iniciar o servidor front-end, se a porta 3000 já estiver ocupada, o terminal fornecerá a opção de mudar para a porta 3001. Basta pressionar "Y" para iniciar o servidor do front-end.
 
 ## Contribuições
 
