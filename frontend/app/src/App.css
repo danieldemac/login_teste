@@ -96,7 +96,7 @@ input[type="email"]:focus {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 10px;
-  width: 100%;
+  width: 50%;
   padding: 20px;
   box-shadow: 4px 5px 4px 0px #023b3a;
 }
@@ -133,4 +133,39 @@ input[type="email"]:focus {
   font-size: small;
   font-style: italic;
   padding-bottom: 10px;
+}
+
+.legenda_button{
+  font-size: medium;
+}
+
+.sidebar {
+  background-color: #6d6e72; /* Cinza */
+  width: 200px; /* Largura do sidebar */
+  height: calc(100% - 20px); /* Altura igual à altura do conteúdo menos 20px */
+  position: fixed; /* Permanece fixo na tela */
+  top: 100px; /* Alinhamento superior com espaço de 20px para o header */
+  left: 0; /* Alinhamento à esquerda */
+  padding: 20px; /* Espaçamento interno */
+}
+.tittle_sidebar{
+  color: #ffffff;
+  font-size: 23px;
+}
+/* Estilo para o conteúdo dentro do sidebar (opcional) */
+.sidebar-content {
+  color: #ffffff; /* Cor do texto */
+}
+
+/* Estilo para os links dentro do sidebar (opcional) */
+.sidebar a {
+  color: #666; /* Cor dos links */
+  text-decoration: none; /* Remover sublinhado */
+  display: block; /* Faz com que os links ocupem toda a largura do sidebar */
+  margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+/* Estilo para os links ativos dentro do sidebar (opcional) */
+.sidebar a.active {
+  font-weight: bold; /* Texto em negrito */
 }
