@@ -21,6 +21,20 @@ const users = [{
     email:'contato3@gmail.com',
     password:'12345'
 
+},
+{
+    id:4,
+    name:'Charles',
+    email:'contato4@gmail.com',
+    password:'12345'
+
+},
+{
+    id:5,
+    name:'Luiz Presbítero',
+    email:'contato5@gmail.com',
+    password:'12345'
+
 }];
 
 routes.post('/login', (req, res) => {
