@@ -43,6 +43,10 @@ a:active:hover {
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
 }
 
+.tela-inicial{
+  padding-left: 300px;
+}
+
 .login-form {
   padding: 0 60px;
 }
@@ -107,6 +111,35 @@ input[type="email"]:focus {
   transition: all 0.2s ease;
 }
 
+.btn-logout {
+  border: none;
+  display: block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background: #d91821;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 13px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 10px 0 10px;
+  margin: 5px;
+  text-align: center;
+  
+  
+  
+}
+.btn-logout:hover {
+  color: bisque;
+  background: #6d6e72;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
 .avatar {
   height: 80px;
 }
@@ -137,6 +170,7 @@ input[type="email"]:focus {
 
 .legenda_button{
   font-size: medium;
+  color: #ffffff;;
 }
 
 .sidebar {
@@ -150,7 +184,7 @@ input[type="email"]:focus {
 }
 .tittle_sidebar{
   color: #ffffff;
-  font-size: 23px;
+  font-size: 20px;
 }
 /* Estilo para o conteúdo dentro do sidebar (opcional) */
 .sidebar-content {
@@ -169,3 +203,63 @@ input[type="email"]:focus {
 .sidebar a.active {
   font-weight: bold; /* Texto em negrito */
 }
+
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  font-size: small;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-size: medium;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  font-size: small;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+#divBusca{
+  background-color:#f2f2f2;
+  border:solid 2px #ddd;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+  margin-left: 51%;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#ddd;
+}
+
