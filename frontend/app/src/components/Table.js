@@ -27,13 +27,14 @@ function Table({ data }) {
 
   return (
     <div className="table-container">
-      <div id="divBusca">
-        <select value={searchField} onChange={handleSearchFieldChange}>
+        <p className='text-search'> Selecione a busca: </p>
+      <select value={searchField} onChange={handleSearchFieldChange} className='select-css'>
           <option value="nome">Nome</option>
           <option value="idade">Idade</option>
           <option value="cpf">CPF</option>
           {/* Adicione mais opções conforme necessário para outros campos de pesquisa */}
         </select>
+      <div id="divBusca">
         <input
           type="text"
           id="txtBusca"

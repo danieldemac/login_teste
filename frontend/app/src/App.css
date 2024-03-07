@@ -240,7 +240,7 @@ tr:hover {
   border-radius:10px;
   width:300px;
   height:32px;
-  margin-left: 51%;
+  margin-left: 5%;
 }
 
 #txtBusca{
@@ -261,5 +261,17 @@ tr:hover {
   width:70px;
   font-weight:bold;
   background:#ddd;
+}
+
+.select-css {
+  background-color:#f2f2f2;
+  border:solid 2px #ddd; 
+  border-radius:10px;
+  float:left;
+  height:32px;
+}
+
+.text-search{
+  font-size: smaller;
 }
 
