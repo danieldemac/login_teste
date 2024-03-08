@@ -12,6 +12,7 @@ function Login(){
 
     const tableData = [
       { nome: 'João Silva', idade: 30, cpf: '123.456.789-01' },
+      { nome: 'Diego Galego', idade: 29, cpf: '456.789.123-05' },
       { nome: 'Maria Santos', idade: 25, cpf: '987.654.321-09' },
       { nome: 'Pedro Oliveira', idade: 35, cpf: '456.789.123-45' },
       { nome: 'Mizael Boy', idade: 20, cpf: '650.856.447-75' },
@@ -20,6 +21,7 @@ function Login(){
       { nome: 'Fernanda Ribeiro', idade: 22, cpf: '753.951.852-04' },
       { nome: 'Lucas Almeida', idade: 33, cpf: '456.789.123-05' },
       { nome: 'Juliana Costa', idade: 27, cpf: '987.654.321-06' },
+      { nome: 'Charles Cruds', idade: 34, cpf: '753.951.852-04' },
       { nome: 'Gabriel Gomes', idade: 31, cpf: '123.456.789-07' },
       { nome: 'Amanda Martins', idade: 24, cpf: '650.856.447-08' },
       { nome: 'Rafael Barbosa', idade: 29, cpf: '456.789.123-09' },
@@ -28,7 +30,8 @@ function Login(){
       { nome: 'Laura Lima', idade: 32, cpf: '650.856.447-12' },
       { nome: 'Gustavo Sousa', idade: 23, cpf: '987.654.321-13' },
       { nome: 'Carolina Freitas', idade: 38, cpf: '123.456.789-14' },
-      { nome: 'Vinicius Mendes', idade: 21, cpf: '650.856.447-15' },
+      { nome: 'Vinicius Mendes', idade: 21, cpf: '650.856.447-15' },           
+      { nome: 'Luiz Presbítero', idade: 28, cpf: '987.654.321-06' }
     ];
 
     
@@ -100,7 +103,7 @@ function Login(){
           </div>
         ) : (
           <div className="tela-inicial">
-            <p className='bem_vindo'>Bem vindo(a), {user.name}.</p>   
+            <p className='bem_vindo'>Bem vindo(a), {user.name}.</p>
             <Table data={tableData} /> {/* Passe os dados da tabela diretamente */}
             {showSidebar && (
               <div className="sidebar">

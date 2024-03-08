@@ -27,7 +27,7 @@ function Table({ data }) {
 
   return (
     <div className="table-container">
-        <p className='text-search'> Selecione a busca: </p>
+        <p className='text-search'> Selecione para fazer a busca dos funcionários <strong>Daniel Pesquisas</strong>: </p>
       <select value={searchField} onChange={handleSearchFieldChange} className='select-css'>
           <option value="nome">Nome</option>
           <option value="idade">Idade</option>
