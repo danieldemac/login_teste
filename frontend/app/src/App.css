@@ -149,7 +149,7 @@ input[type="email"]:focus {
   
 }
 .avatar_dtm {
-  max-width: 300px;
+  width: 350px;
 }
 
 .header__logo {

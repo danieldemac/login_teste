@@ -70,8 +70,8 @@ function Login(){
         {user === null ? (
         <div className='login-form-wrap'>
           <div>
-            <img className="avatar_dtm" src="datametrica.jpg" alt="logo_dtm" />
-            <h2>Painel Pesquisadores</h2>
+            <img className="avatar_dtm" src="logo.png" alt="logo_dtm" />
+             
             <img className="avatar_base" src="avatar.png" alt="avatar_base" />
             <form className='login-form'>
                 <input 
@@ -104,7 +104,7 @@ function Login(){
             <Table data={tableData} /> {/* Passe os dados da tabela diretamente */}
             {showSidebar && (
               <div className="sidebar">
-                <p className="tittle_sidebar">Painel Pesquisadores</p>
+                <p className="tittle_sidebar">Lista de Pesquisa</p>
                 <p className="legenda_button"> Clique aqui para deslogar e voltar para tela de login:
                 <button 
                   type='button' 
