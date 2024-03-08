@@ -1,5 +1,7 @@
-<h1 align="center">Modelo de Login e Cadastro</h1> Modelo de Login e Cadastro
-
+<h1 align="center">Modelo de Login e Cadastro</h1> 
+<div style="text-align: center;"> 
+  <img src="frontend/app/public/exemplo.png" alt="exemplo" heith="150px">
+</div>
 Este é um projeto pessoal para criar uma aplicação de tela de login e cadastro usando React JS para o frontend e Node JS para o backend.
 
 ## Funcionalidades
@@ -41,6 +43,5 @@ npm start
 'http://localhost:3000'
 Ao iniciar o servidor front-end, se a porta 3000 já estiver ocupada, o terminal fornecerá a opção de mudar para a porta 3001. Basta pressionar "Y" para iniciar o servidor do front-end.
 
-## Contribuições
-
-Contribuições são bem-vindas! Se você tiver sugestões, correções ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+## Como entrar?
+- use o email `contato@gmail.com` e a senha `12345`
