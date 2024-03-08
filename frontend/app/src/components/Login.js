@@ -73,7 +73,7 @@ function Login(){
         {user === null ? (
         <div className='login-form-wrap'>
           <div>
-            <img className="avatar_dtm" src="logo.png" alt="logo_dtm" />
+            <img className="avatar_dtm" src="logo3.png" alt="logo_dtm" />
              
             <img className="avatar_base" src="avatar.png" alt="avatar_base" />
             <form className='login-form'>
